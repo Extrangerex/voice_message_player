@@ -174,12 +174,6 @@ class _VoiceMessagePlayerState extends State<VoiceMessagePlayer> {
               ),
 
               ///
-              const SizedBox(width: 12),
-
-              /// speed button
-              _changeSpeedButton(color),
-
-              ///
               const SizedBox(width: 10),
             ],
           );
