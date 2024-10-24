@@ -165,7 +165,9 @@ class _VoiceMessagePlayerState extends State<VoiceMessagePlayer> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     const SizedBox(height: 8),
-                    _noises(newTHeme),
+                    Expanded(
+                      child: _noises(newTHeme),
+                    ),
                     const SizedBox(height: 4),
                     Text(widget.controller.remindingTime,
                         style: widget.counterTextStyle),
